@@ -8,50 +8,54 @@
 </head>
 <body>
 	<header>
-		<img src="./assets/images/logo-header@2x.png">
-		<ul>
-			<li>
-				<a href="">პროდუქტი</a>
-			</li>
-			<li>
-				<a href="">კონტაქტი</a>
-			</li>
+		<img class="logo" src="./assets/images/logo-header@2x.png" alt="header logo">
+		<nav>
+			<ul class="nav-items">
+				<li class="nav-item">
+					<a class="nav-text" href="">პროდუქტი</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-text" href="">კონტაქტი</a>
+				</li>
 		</ul>
+		</nav>
 	</header>
 	<section class="main-item">
 		<div class="main-stuff">
 			<h1>ყურსასმენი</h1>
-			<p>Bang & Olufsen-ის უმაღლესი ხარისხის ყურსასმენი, <br>დახვეწილი ვიზუალი და მაღალი კლასის დიზაინი.</p>
-			<a href="">დამატება</a>
+			<p class="main-item-description">Bang & Olufsen-ის უმაღლესი ხარისხის ყურსასმენი, <br>დახვეწილი ვიზუალი და მაღალი კლასის დიზაინი.</p>
+			<a class="add-button" href="">დამატება</a>
 		</div>
 		<img class="main-img" src="./assets/images/Rectangle 39@2x.png" alt="headphone image">
 	</section>
 	<section class="highlights">
-		<div class="highlight-item">
-			<img class="highlight-image" src="./assets/images/Group 5@2x.png" alt="monitor image">
+		<div>
+			<img class="highlight-item1" src="./assets/images/Group 5@2x.png" alt="monitor image">
 			<p>მონიტორი</p>
 		</div>
-		<div class="highlight-item">
-			<img class="highlight-image" src="./assets/images/Group 6@2x.png" alt="lightbulb image">
+		<div>
+			<img class="highlight-item2" src="./assets/images/Group 6@2x.png" alt="lightbulb image">
 			<p>სანათი</p>
 		</div>
-		<div class="highlight-item">
-			<img class="highlight-image" src="./assets/images/Group 7@2x.png" alt="headphone image">
+		<div>
+			<img class="highlight-item3" src="./assets/images/Group 7@2x.png" alt="headphone image">
 			<p>ყურსასმენი</p>
 		</div>
 	</section>
 	<h2>ყველაზე გაყიდვადი</h2>
 	<section class="popular">
-		<ul>
+		<ul class="popular-list">
 			<li>
 				<img class="popular-img" src="./assets/images/Group 9@2x.png" alt="lightbulb image">
 				<h3>
 					სანათი
 				</h3>
-				<p>უმაღლესი ხარისხის სანათი</p>
+				<p class="item-description">უმაღლესი ხარისხის სანათი</p>
 				<div class="interaction">
-					<img class="heart" src="./assets/images/svg/heart.svg" alt="heart icon">
-					<img class="cart" src="./assets/images/svg/cart.svg" alt="cart icon">
+					<div class="interactive-icon">
+						<img class="heart" src="./assets/images/svg/heart.svg" alt="heart icon">
+						<img class="cart" src="./assets/images/svg/cart.svg" alt="cart icon">
+					</div>
 					<a href="">იყიდე</a>
 				</div>
 			</li>
@@ -60,10 +64,12 @@
 				<h3>
 					დინამიკი
 				</h3>
-				<p>უმაღლესი ხარისხის დინამიკი</p>
+				<p class="item-description">უმაღლესი ხარისხის დინამიკი</p>
 				<div class="interaction">
-					<img class="heart" src="./assets/images/svg/heart.svg" alt="heart icon">
-					<img class="cart" src="./assets/images/svg/cart.svg" alt="cart icon">
+					<div class="interactive-icon">
+						<img class="heart" src="./assets/images/svg/heart.svg" alt="heart icon">
+						<img class="cart" src="./assets/images/svg/cart.svg" alt="cart icon">
+					</div>
 					<a href="">იყიდე</a>
 				</div>
 			</li>
@@ -72,10 +78,12 @@
 				<h3>
 					ყურსასმენი
 				</h3>
-				<p>უმაღლესი ხარისხის ყურსასმენი</p>
+				<p class="item-description">უმაღლესი ხარისხის ყურსასმენი</p>
 				<div class="interaction">
-					<img class="heart" src="./assets/images/svg/heart.svg" alt="heart icon">
-					<img class="cart" src="./assets/images/svg/cart.svg" alt="cart icon">
+					<div class="interactive-icon">
+						<img class="heart" src="./assets/images/svg/heart.svg" alt="heart icon">
+						<img class="cart" src="./assets/images/svg/cart.svg" alt="cart icon">
+					</div>
 					<a href="">იყიდე</a>
 				</div>
 			</li>
@@ -84,10 +92,12 @@
 				<h3>
 					სანათი
 				</h3>
-				<p>უმაღლესი ხარისხის სანათი</p>
+				<p class="item-description">უმაღლესი ხარისხის სანათი</p>
 				<div class="interaction">
-					<img class="heart" src="./assets/images/svg/heart.svg" alt="heart icon">
-					<img class="cart" src="./assets/images/svg/cart.svg" alt="cart icon">
+					<div class="interactive-icon">
+						<img class="heart" src="./assets/images/svg/heart.svg" alt="heart icon">
+						<img class="cart" src="./assets/images/svg/cart.svg" alt="cart icon">
+					</div>
 					<a href="">იყიდე</a>
 				</div>
 			</li>
@@ -96,10 +106,12 @@
 				<h3>
 					სმარტ დინამიკი
 				</h3>
-				<p>უმაღლესი ხარისხის სმარტ დინამიკი</p>
+				<p class="item-description">უმაღლესი ხარისხის სმარტ დინამიკი</p>
 				<div class="interaction">
-					<img class="heart" src="./assets/images/svg/heart.svg" alt="heart icon">
-					<img class="cart" src="./assets/images/svg/cart.svg" alt="cart icon">
+					<div class="interactive-icon">
+						<img class="heart" src="./assets/images/svg/heart.svg" alt="heart icon">
+						<img class="cart" src="./assets/images/svg/cart.svg" alt="cart icon">
+					</div>
 					<a href="">იყიდე</a>
 				</div>
 			</li>
@@ -108,10 +120,12 @@
 				<h3>
 					ტელევიზორი
 				</h3>
-				<p>უმაღლესი ხარისხის ტელევიზორი</p>
+				<p class="item-description">უმაღლესი ხარისხის ტელევიზორი</p>
 				<div class="interaction">
-					<img class="heart" src="./assets/images/svg/heart.svg" alt="heart icon">
-					<img class="cart" src="./assets/images/svg/cart.svg" alt="cart icon">
+					<div class="interactive-icon">
+						<img class="heart" src="./assets/images/svg/heart.svg" alt="heart icon">
+						<img class="cart" src="./assets/images/svg/cart.svg" alt="cart icon">
+					</div>
 					<a href="">იყიდე</a>
 				</div>
 			</li>
@@ -121,48 +135,50 @@
 	<section class="why-us">
 		<ul>
 			<li>
-				<p>ხარისხი</p>
-				<div>
-					<p>01</p>
+				<p class="desc">ხარისხი</p>
+				<div class="box">
+					<p class="num">01</p>
 				</div>
-				<img src="./assets/images/Group 20@2x.png" alt="quality image">
+				<img class="why-us-img" src="./assets/images/Group 20@2x.png" alt="quality image">
 			</li>
 			<li>
-				<p>ნდობა</p>
-				<div>
-					<p>02</p>
+				<p class="desc">ნდობა</p>
+				<div class="box">
+					<p class="num">02</p>
 				</div>
-				<img src="./assets/images/Rectangle 29@2x.png" alt="trustworthy image">
+				<img class="why-us-img" src="./assets/images/Rectangle 29@2x.png" alt="trustworthy image">
 			</li>
 			<li>
-				<p>კომფორტი</p>
-				<div>
-					<p>03</p>
+				<p class="desc">კომფორტი</p>
+				<div class="box">
+					<p class="num">03</p>
 				</div>
-				<img src="./assets/images/Group 36@2x.png" alt="comfort image">
+				<img class="why-us-img" src="./assets/images/Group 36@2x.png" alt="comfort image">
 			</li>
 		</ul>
 	</section>
 	<footer>
-		<img src="./assets/images/logo-footer@2x.png" alt="Bang & Olufsen logo">
-		<p>შემოდგომა - ზამთრის კოლექცია 2019 <br>აღმოაჩინეთ პორტატული დინამიკები და <br>ყურსასმენები, რომლებიც გამოირჩევა <br>ნებისმიერი სხვა ბრენდისგან.</p>
-		<div>
+		<section class="footer-items">
+			<img class="footer-logo" src="./assets/images/logo-footer@2x.png" alt="Bang & Olufsen logo">
+			<p>შემოდგომა - ზამთრის კოლექცია 2019 <br>აღმოაჩინეთ პორტატული დინამიკები და <br>ყურსასმენები, რომლებიც გამოირჩევა <br>ნებისმიერი სხვა ბრენდისგან.</p>
+			<div>
 			<p>დაგვიკავშირდით</p>
 			<p>ხშირად დასმული კითხვები</p>
 			<p>პროდუქტები</p>
 			<p>რეგისტრაცია</p>
-		</div>
-		<div>
+			</div>
+			<div>
 			<p>დაგვიკავშირდით</p>
 			<p>კორპორაციული მისამართი:</p>
 			<p>1839 Morganton Blvd. <br> Lenoir, NC 28645</p>
-		</div>
-		<hr>
-		<section class="social">
-			<img src="./assets/images/svg/fb.svg" alt="Facebook logo">
-			<img src="./assets/images/svg/insta.svg" alt="Instagram logo">
-			<img src="./assets/images/svg/twitter.svg" alt="Twitter logo">
+			</div>
 		</section>
 	</footer>
+	<hr>
+	<section class="social">
+		<img src="./assets/images/svg/fb.svg" alt="Facebook logo">
+		<img src="./assets/images/svg/insta.svg" alt="Instagram logo">
+		<img src="./assets/images/svg/twitter.svg" alt="Twitter logo">
+	</section>
 </body>
 </html>
