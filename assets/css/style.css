@@ -1,0 +1,11 @@
+*{
+	font-family: Helvetica;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{
+	width: 1920px;
+	height: 3754px;
+	background-color: #ffffff;
+}
